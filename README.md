@@ -5,6 +5,8 @@ sketch that sends the "enter" keystroke to your computer when a button is
 pressed on the Arduino. (But you can put that Arduino inside a box that looks
 like a dynamite plunger!)
 
+[![Build Status](https://travis-ci.org/hellojustin/dynamite-plunger.svg?branch=master)](https://travis-ci.org/hellojustin/dynamite-plunger)
+
 ## Local Development
 1. Install system prerequisites
    * **PlatformIO Core -** This project uses [PlatformIO](http://platformio.org/)
@@ -14,4 +16,12 @@ like a dynamite plunger!)
      ```
      [Alternative installation methods can be found here](http://docs.platformio.org/en/latest/installation.html#installation-methods).
 
-1.
+   * **Autodesk 123D Design -**
+
+1. Clone this repository using git (SSH is recommended for pulls/pushes):
+   ```shell
+   git@github.com:hellojustin/dynamite-plunger.git
+   ```
+
+## 3D-printable parts
+* Plunger Switch Mount
