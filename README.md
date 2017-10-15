@@ -6,6 +6,8 @@ pressed on the Arduino. (But you can put that Arduino inside a box that looks
 like a dynamite plunger!)
 
 [![Build Status](https://travis-ci.org/hellojustin/dynamite-plunger.svg?branch=master)](https://travis-ci.org/hellojustin/dynamite-plunger)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/7803b5d972d1ed8c7ea1/test_coverage)](https://codeclimate.com/github/hellojustin/dynamite-plunger/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/7803b5d972d1ed8c7ea1/maintainability)](https://codeclimate.com/github/hellojustin/dynamite-plunger/maintainability)
 
 ## Local Development
 1. Install system prerequisites
