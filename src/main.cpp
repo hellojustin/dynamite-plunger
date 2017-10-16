@@ -1,11 +1,7 @@
-#include "Arduino.h"
+#include <Arduino.h>
 
 #define LED_BUILTIN 13
-#define BUTTON 9
-#define ASCII_NEWLINE 10
-#define ASCII_CARRIAGE_RETURN 13
-#define ASCII_BACKSPACE 27
-
+#define BUTTON 8
 
 void setup()
 {
@@ -17,6 +13,9 @@ void loop()
 {
   if(digitalRead(BUTTON) == 1) {
     digitalWrite(LED_BUILTIN, HIGH);
+    Keyboard.press(KEY_ENTER);
+    delay(200);
+    Keyboard.release(KEY_ENTER);
   } else {
     digitalWrite(LED_BUILTIN, LOW);
   }
