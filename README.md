@@ -9,7 +9,7 @@ like a dynamite plunger!)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/7803b5d972d1ed8c7ea1/test_coverage)](https://codeclimate.com/github/hellojustin/dynamite-plunger/test_coverage)
 [![Maintainability](https://api.codeclimate.com/v1/badges/7803b5d972d1ed8c7ea1/maintainability)](https://codeclimate.com/github/hellojustin/dynamite-plunger/maintainability)
 
-## Local Development
+## Local Development Setup
 1. Install system prerequisites
    * **PlatformIO Core -** This project uses [PlatformIO](http://platformio.org/)
      to build and install our code on the Arduino. If you're on a Mac with [homebrew](https://brew.sh/), just tap out:
@@ -23,6 +23,12 @@ like a dynamite plunger!)
 1. Clone this repository using git (SSH is recommended for pulls/pushes):
    ```shell
    git@github.com:hellojustin/dynamite-plunger.git
+   ```
+
+## Building & Installing on Arduino Device
+1. PlatformIO lets you build and upload in a single command:
+   ```shell
+   platformio run -t upload
    ```
 
 ## 3D-printable parts

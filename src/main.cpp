@@ -1,11 +1,11 @@
 #include "Arduino.h"
 
-#ifndef LED_BUILTIN
 #define LED_BUILTIN 13
-#endif
-#ifndef BUTTON
 #define BUTTON 9
-#endif
+#define ASCII_NEWLINE 10
+#define ASCII_CARRIAGE_RETURN 13
+#define ASCII_BACKSPACE 27
+
 
 void setup()
 {
